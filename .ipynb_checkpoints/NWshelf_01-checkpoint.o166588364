@@ -1,0 +1,36 @@
+laboratory path:  /scratch/nm03/ee8016/access-om3
+binary path:  /scratch/nm03/ee8016/access-om3/bin
+input path:  /scratch/nm03/ee8016/access-om3/input
+work path:  /scratch/nm03/ee8016/access-om3/work
+archive path:  /scratch/nm03/ee8016/access-om3/archive
+Metadata and UUID generation is disabled. Experiment name used for archival: access-rom3
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+mod access-om3/2025.08.003-tracers-from-file
+mod model-tools/mppnccombine-fast/2025.07.000
+mod nco/5.0.5
+mod fre-nctools/2024.05-1
+mpirun  -wdir /scratch/nm03/ee8016/access-om3/work/access-rom3 -np 100  /scratch/nm03/ee8016/access-om3/work/access-rom3/access-om3-MOM6
+/home/156/ee8016/access-om3/NWshelf_01/access-rom3/access-om3.err /scratch/nm03/ee8016/access-om3/archive/access-rom3/error_logs/access-om3.166588364.gadi-pbs.err
+/home/156/ee8016/access-om3/NWshelf_01/access-rom3/access-om3.out /scratch/nm03/ee8016/access-om3/archive/access-rom3/error_logs/access-om3.166588364.gadi-pbs.out
+/home/156/ee8016/access-om3/NWshelf_01/access-rom3/job.yaml /scratch/nm03/ee8016/access-om3/archive/access-rom3/error_logs/job.166588364.gadi-pbs.yaml
+/home/156/ee8016/access-om3/NWshelf_01/access-rom3/env.yaml /scratch/nm03/ee8016/access-om3/archive/access-rom3/error_logs/env.166588364.gadi-pbs.yaml
+
+======================================================================================
+                  Resource Usage on 2026-04-21 13:56:09:
+   Job Id:             166588364.gadi-pbs
+   Project:            nm03
+   Exit Status:        1
+   Service Units:      13.08
+   NCPUs Requested:    100                 CPU Time Used: 05:25:18        
+   Memory Requested:   512.0GB               Memory Used: 131.72GB        
+   Walltime Requested: 02:00:00            Walltime Used: 00:03:50        
+   JobFS Requested:    1.0GB                  JobFS Used: 8.31MB          
+======================================================================================

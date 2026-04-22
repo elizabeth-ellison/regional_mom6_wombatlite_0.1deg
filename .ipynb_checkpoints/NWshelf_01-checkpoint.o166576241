@@ -1,0 +1,38 @@
+laboratory path:  /scratch/nm03/ee8016/access-om3
+binary path:  /scratch/nm03/ee8016/access-om3/bin
+input path:  /scratch/nm03/ee8016/access-om3/input
+work path:  /scratch/nm03/ee8016/access-om3/work
+archive path:  /scratch/nm03/ee8016/access-om3/archive
+Metadata and UUID generation is disabled. Experiment name used for archival: access-rom3
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+166576980.gadi-pbs
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normalsr -P nm03 -l walltime=0:30:00 -l ncpus=1 -l mem=30GB -l jobfs=1GB -N NWshelf_01_c -l wd -j n -v PAYU_PATH=/g/data/vk83/apps/base_conda/envs/payu-1.1.6/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data/x77/ahg157/spack/1.1/release/modules/linux-rocky8-x86_64:/g/data/vk83/modules:/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/qv56+gdata/vk83+gdata/x77+scratch/nm03 -- /g/data/vk83/./apps/conda_scripts/payu-1.1.6.d/bin/python /g/data/vk83/apps/base_conda/envs/payu-1.1.6/bin/payu-collate
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+mod access-om3/2025.08.003-tracers-from-file
+mod model-tools/mppnccombine-fast/2025.07.000
+mod nco/5.0.5
+mod fre-nctools/2024.05-1
+mpirun  -wdir /scratch/nm03/ee8016/access-om3/work/access-rom3 -np 100  /scratch/nm03/ee8016/access-om3/work/access-rom3/access-om3-MOM6
+
+======================================================================================
+                  Resource Usage on 2026-04-21 11:53:02:
+   Job Id:             166576241.gadi-pbs
+   Project:            nm03
+   Exit Status:        0
+   Service Units:      26.23
+   NCPUs Requested:    100                 CPU Time Used: 11:54:22        
+   Memory Requested:   512.0GB               Memory Used: 135.45GB        
+   Walltime Requested: 00:30:00            Walltime Used: 00:07:41        
+   JobFS Requested:    1.0GB                  JobFS Used: 8.31MB          
+======================================================================================

@@ -1,0 +1,322 @@
+ (t_initf) Read in prof_inparm namelist from: drv_in
+ (t_initf) Using profile_disable=          F
+ (t_initf)       profile_timer=                      4
+ (t_initf)       profile_depth_limit=                4
+ (t_initf)       profile_detail_limit=               2
+ (t_initf)       profile_barrier=          F
+ (t_initf)       profile_outpe_num=                  1
+ (t_initf)       profile_outpe_stride=               0
+ (t_initf)       profile_single_file=      F
+ (t_initf)       profile_global_stats=     T
+ (t_initf)       profile_ovhd_measurement= F
+ (t_initf)       profile_add_detail=       F
+ (t_initf)       profile_papi_enable=      F
+
+WARNING from PE     0: MOM_file_parser : OBC_NUMBER_OF_SEGMENTS over-ridden.  Line: 'OBC_NUMBER_OF_SEGMENTS = 4' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DT over-ridden.  Line: 'DT = 600' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DT_THERM over-ridden.  Line: 'DT_THERM = 1800' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : MINIMUM_DEPTH over-ridden.  Line: 'MINIMUM_DEPTH = 12.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : NK over-ridden.  Line: 'NK = 100' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_FREESLIP_VORTICITY over-ridden.  Line: 'OBC_FREESLIP_VORTICITY = False' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_COMPUTED_VORTICITY over-ridden.  Line: 'OBC_COMPUTED_VORTICITY = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_FREESLIP_STRAIN over-ridden.  Line: 'OBC_FREESLIP_STRAIN = False' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_COMPUTED_STRAIN over-ridden.  Line: 'OBC_COMPUTED_STRAIN = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_ZERO_BIHARMONIC over-ridden.  Line: 'OBC_ZERO_BIHARMONIC = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_TIDE_N_CONSTITUENTS over-ridden.  Line: 'OBC_TIDE_N_CONSTITUENTS = 10' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_TRACER_RESERVOIR_LENGTH_SCALE_OUT over-ridden.  Line: 'OBC_TRACER_RESERVOIR_LENGTH_SCALE_OUT = 3.0E+04' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_TRACER_RESERVOIR_LENGTH_SCALE_IN over-ridden.  Line: 'OBC_TRACER_RESERVOIR_LENGTH_SCALE_IN = 3000.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : BRUSHCUTTER_MODE over-ridden.  Line: 'BRUSHCUTTER_MODE = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_TIDE_CONSTITUENTS over-ridden.  Line: 'OBC_TIDE_CONSTITUENTS = "M2, S2, N2, K2, K1, O1, P1, Q1, MM, MF"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : TIDES over-ridden.  Line: 'TIDES = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : OBC_TIDE_ADD_EQ_PHASE over-ridden.  Line: 'OBC_TIDE_ADD_EQ_PHASE = True' in file MOM_override.
+
+
+WARNING from PE     0: The runtime parameter TIDE_USE_EQ_PHASE is also being set consistently via its older name of OBC_TIDE_ADD_EQ_PHASE.  Please migrate to only using TIDE_USE_EQ_PHASE.
+
+
+WARNING from PE     0: MOM_file_parser : TIDE_REF_DATE over-ridden.  Line: 'TIDE_REF_DATE = 2012, 01, 15' in file MOM_override.
+
+
+WARNING from PE     0: Open_file is appending .nc to the filename ./ocean_geometry
+
+NOTE from PE    90: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE     1: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     7: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     5: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     8: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     3: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     6: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     4: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     2: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    91: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    94: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    95: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    92: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    97: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    93: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    98: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    96: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE     7: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     1: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     5: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    19: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    29: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    49: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     6: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     3: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     8: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     4: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     2: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    91: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    94: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    92: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    93: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    79: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    95: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    69: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    97: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    59: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    89: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    96: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    98: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    70: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     1: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     7: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     5: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    30: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    20: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    19: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    29: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    40: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    39: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     2: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     8: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    49: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     6: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     3: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     4: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    80: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    60: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    91: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    10: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    50: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    92: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    93: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    95: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    59: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    89: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    69: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    94: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    97: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    79: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    96: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    98: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE     1: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     7: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     5: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    70: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    29: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    30: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    20: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    19: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    40: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     3: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE     6: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    39: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    49: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     8: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    80: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     2: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    60: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    91: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE     4: time_interp_external_mod: file INPUT/tu_segment_002.nc  has only one time level
+NOTE from PE    92: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    93: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    50: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    95: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    10: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    89: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    97: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    94: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    59: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    69: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    79: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    96: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    98: time_interp_external_mod: file INPUT/tu_segment_001.nc  has only one time level
+NOTE from PE    70: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    30: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    20: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    19: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    40: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    29: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    39: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     5: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE     1: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE     7: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    60: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    49: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    80: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     3: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE     8: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    50: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     6: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    10: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    89: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     4: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE     2: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    91: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    69: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    59: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    93: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    92: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    79: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    70: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    40: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    95: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    20: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    94: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    30: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    39: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     1: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE     7: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    97: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    96: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE     5: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    98: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE     3: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    80: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    60: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    29: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    19: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    50: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     6: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE     8: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    10: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     4: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    49: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE     2: time_interp_external_mod: file INPUT/tz_segment_002.nc  has only one time level
+NOTE from PE    93: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    91: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    92: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    94: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    89: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    95: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    96: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    69: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    59: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    98: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    79: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    97: time_interp_external_mod: file INPUT/tz_segment_001.nc  has only one time level
+NOTE from PE    30: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    20: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    29: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    40: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    70: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    39: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    19: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    49: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    80: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    60: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    50: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    10: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    89: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    69: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    30: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    59: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    40: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    20: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    39: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    79: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    70: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    80: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    60: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    10: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    50: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tu_segment_004.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    90: time_interp_external_mod: file INPUT/tz_segment_004.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tu_segment_003.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE     9: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+NOTE from PE    99: time_interp_external_mod: file INPUT/tz_segment_003.nc  has only one time level
+
+WARNING from PE     0: The runtime parameter SAL_SCALAR_VALUE is being set via its soon to be obsolete name of TIDE_SAL_SCALAR_VALUE.  Please migrate to using SAL_SCALAR_VALUE.
+
+
+WARNING from PE     0: The runtime parameter TIDE_USE_EQ_PHASE is also being set consistently via its older name of OBC_TIDE_ADD_EQ_PHASE.  Please migrate to only using TIDE_USE_EQ_PHASE.
+
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (generic_wombatlite/pprod_gross_2d) NOT registered
+
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (generic_wombatlite/pprod_gross) NOT registered
+
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (generic_wombatlite/zprod_gross) NOT registered
+
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (generic_wombatlite/alk_correct) NOT registered
+
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (generic_wombatlite/dic_correct) NOT registered
+
