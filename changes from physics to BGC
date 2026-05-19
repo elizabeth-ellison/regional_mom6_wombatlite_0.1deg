@@ -1,0 +1,63 @@
+Files to change for BGC;
+
+Config.yaml
+ 
+Add in a single obgc_obc files rather than 1.
+Add in the dust file 
+Using an executable with BGC
+ 
+Diag Table 
+Add in whichever BGC fields you want 
+ 
+MOM input
+Check that the default is to turn reentrant x and y off. 
+ 
+ 
+Field Table - we need to have a field table, eg 
+ 
+# WOMBATlite field table
+# ===============================================
+"namelists","ocean_mod","generic_wombatlite/*global*"
+/
+"namelists","ocean_mod","generic_wombatlite"
+ 
+#
+no3_src_file = INPUT/init_tracers_modified.nc
+no3_src_var_name = no3
+no3_src_var_unit = none
+no3_dest_var_name = no3
+no3_dest_var_unit = mol kg-1
+no3_src_var_record = 1
+no3_src_var_gridspec = NONE
+no3_valid_min = 0.0
+ 
+This was a bit of a pain to set up to sort out the units it wanted things to be in! 
+ 
+MOM override 
+List boundary conditions as 1 rather than as 4  eg 
+"U=file:obgc_obc.nc(u),V=file:obgc_obc.nc(v),SSH=file:obgc_obc.nc(eta),TEMP=file:obgc_obc.nc(temp),SALT=file:obgc_obc.nc(salt),Uamp=file:tu_segment_001.nc(uamp),Uphase=file:tu_segment_001.nc(uphase),Vamp=file:tu_segment_001.nc(vamp),Vphase=file:tu_segment_001.nc(vphase),SSHamp=file:tz_segment_001.nc(zamp),SSHphase=file:tz_segment_001.nc(zphase)" !None
+ 
+ 
+Data table 
+ 
+We need the dust file 
+# MOM/FMS data table
+#
+# gridname | fieldname_code           | fieldname_file | file_name                                     | ongrid | factor
+# ----------------------------------------------------------------------------------------------------------------------
+"OCN"      , "co2_flux_pcair_atm"     , ""             , ""                                            , "none" , 315.165e-06
+"OCN"      , "co2_nat_flux_pcair_atm" , ""             , ""                                            , "none" , 284.262e-06
+"OCN"      , "o2_flux_pcair_atm"      , ""             , ""                                            , "none" , 0.21
+"OCN"      , "dry_dep_fe_flux_ice_ocn", "SFe"          , "./INPUT/dust_DS.nc", "none" , -1.0
+ 
+ 
+Input.nml
+&generic_tracer_nml
+    do_generic_tracer=.true.
+    do_generic_WOMBATlite=.true.
+    force_update_fluxes=.false. !This has to be set for THERMO_SPANS_COUPLING to work
+/
+ 
+&generic_wombatlite_nml
+    co2_calc='ocmip2'
+/
